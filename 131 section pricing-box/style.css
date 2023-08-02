@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.section-padding{
+    padding:150px 0;
+}
+.image-section img{
+    max-width:100%;
+}
+
+
+.section-bg{
+    background-color:black;
+    padding-top:100px;
+    padding-bottom:50px;
+}
+.section-title p {
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+}
+.section-title {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 100px;
+}
+.section-title h3 {
+    font-size: 45px;
+    line-height: 55px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.section-title span {
+    color: #0ab5f9;
+}
+.pricing-box{
+   border:1px solid #FFf;
+   position:relative;
+}
+.col-md-4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.pricing-box .row {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.box-inner-tricki{
+    background-color:#fff;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    margin-top:-70px;
+    position: absolute;
+}
+.box-inner-tricki h2{
+    padding-top:50px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+.single-priceing-title {
+    padding-left: 50px;
+    background-color: #0ab5f9;
+
+}
+.single-priceing-title h3 {
+    padding-top: 100px;
+    color: #fff;
+    font-size: 35px;
+    line-height: 40px;
+    padding-bottom: 50px;
+    margin:0;
+}
+
+.table-contents ul{
+   list-style: none;
+   padding:0;margin:0;
+}
+
+.table-contents li{
+    color: #fff;
+    padding:10px;
+    font-size: 20px;
+    line-height:28px;
+    padding-left:50px;
+}
+.table-contents li:nth-child(2n+2){
+background-color:#646460;
+}
+
+.box-btn{
+    padding-left:50px;
+    padding-bottom:50px;
+    padding-top: 20px;
+}
+.box-btn a{
+    color:#fff;
+    border:2px solid #fff;
+    padding:7px 25px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+@media only screen and (max-width: 768px){
+    .pricing-box {
+        margin-bottom: 100px;
+    }
+    .col-md-4 {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+}

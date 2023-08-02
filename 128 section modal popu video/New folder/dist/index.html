@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - jQuery Modal with YouTube Video</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+  <a class="modal-open" href="#play-video" data-youtube-id="ze_ie8Ctp60">Play Video</a>
+</div>
+
+<div class="modal">
+  <div class="background"></div>
+  <div class="box">
+    <div class="close">✖</div>
+    <h6>Video</h6>
+    <div class="content">
+      <div class="responsive-video">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/cPzrZ-1g-7U" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

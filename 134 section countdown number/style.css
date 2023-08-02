@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+
+.number {
+    font-size: 50px;
+    font-weight: 700;
+    position:relative;
+    color:#fff;
+}
+
+.content{
+    font-size: 35px;
+    font-weight: 500;
+    color:#fff;
+}
+
+.percent{
+    position:absolute;
+    width: 100%;
+    height:auto;
+    right:-25%;
+    top:0;
+    font-size: 50px;
+    color:#fff;
+}
+
+.section-bg{
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.icons i{
+  color:#fff;
+  font-size: 50px;
+  line-height: 58px;
+}
